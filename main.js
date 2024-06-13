@@ -1,6 +1,6 @@
 const botoes = document.querySelectorAll(".botao");
 const conteudo = document.querySelectorAll(".abaconteudo");
-
+const contador = document. querySelectorAll(".contador")
 
 for (let i = 0; i < botoes.length; i++){
     botoes[i].onclick = function(){
@@ -11,8 +11,6 @@ for (let i = 0; i < botoes.length; i++){
         }
         botoes[i].classList.add("ativo")
         conteudo[i].classList.add("ativo")
-
-
     }
 }
 
