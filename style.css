@@ -54,11 +54,11 @@ span{
 
 }
 
-.abaconteudo{
+.aba-conteudo{
     display: none;
 }
 
-.abaconteudo.ativo{
+.aba-conteudo.ativo{
     display:block
 }
 
