@@ -12,6 +12,21 @@ contador[2].textContent= tempoObjetivo3 - agora
 contador[3].textContent= tempoObjetivo4 - agora
 
 
+let segundos  = (tempoObjetivo1 - agora)/1000;                                                
+let minutos = segundos/60;
+let horas = minutos/60;
+let dias = horas/24;
+
+contador[0].textContent = `Faltam ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`
+
+
+
+
+
+
+
+
+
 for(let i = 0 ; i < botoes.length; i++){
     botoes[i].onclick = function(){
      for (let j = 0; j< botoes.length ; j++){
