@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
-/* 1) guardar numa variavel conteudo todos as
-classes aba-conteudo
-2) tirar todos os ativos com classList.remove
-3) adicionar ativo ao conteúdo selecionado com
-classList.add */
+
 :root{
     --cor-de-fundo: #1e1e1e;
     --verde: #6FFF57;
@@ -38,7 +34,19 @@ span{
     display: flex;
     justify-content: center;
 }
+.contador-digito-numero{
+ font-size: 80px ;
+ margin: 0;
 
+}
+
+.contador-digito-texto{
+    color: #6FFF57;
+font-size: 20px;
+margin: 0;
+
+
+}
 .titulo-principal{
     text-align: center;
     width: 100%;
