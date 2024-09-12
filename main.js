@@ -43,14 +43,11 @@ function calculaTempo(tempoObjetivo) {
 }
 
 function atualizaCronometro(){
-    document.getElementById("dias0").textContent=calculaTempo(tempos[0])[0];
-    document.getElementById("horas0").textContent=calculaTempo(tempos[0])[1];
-    document.getElementById("minutos0").textContent=calculaTempo(tempos[0])[2];
-    document.getElementById("segundos0").textContent=calculaTempo(tempos[0])[3];
-   
-       
     for (let i=0; i<contadores.length;i++){
-        //contadores[i].textContent = calculaTempo(tempos[i]);  
+      document.getElementById("dias0" + i).textContent=calculaTempo(tempos[i])[0];
+      document.getElementById("horas0" + i).textContent=calculaTempo(tempos[i])[1];
+      document.getElementById("minutos0" + i).textContent=calculaTempo(tempos[i])[2];
+      document.getElementById("segundos0" + i).textContent=calculaTempo(tempos[i])[3];
     }
 }
 
@@ -60,5 +57,3 @@ function comecaCronometro(){
 }
 
 comecaCronometro();
-
-
